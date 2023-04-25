@@ -1,0 +1,38 @@
+<div class="wholepage">
+    <div style="text-align: center; "><img style="border: 2px solid red;" width="400px" height="100px" src="https://png.pngitem.com/pimgs/s/108-1081939_pokemon-adventures-hd-png-download.png" alt=""></div>
+    <div class="main">
+        <input id="search" [(ngModel)]="searchkey" class="form-control text-center" type="text" placeholder="search here">
+       
+       <div class="row" >
+          <div  id="card" *ngFor="let elem of pokedetails | filter:searchkey:'name' " class=" col-2 mb-2 " style="width: 18rem;">
+            <div >
+              <p [id]="elem.types[0].type.name" class="coloroftype"><span *ngFor="let ty of elem.types">
+                <span >{{ty.type.name}} </span>
+              </span></p>
+            </div>
+              <div id ="cardcontent">
+               
+               <div> <img class="card-img-top " width="60px" height="200px" src="{{elem.sprites.other.dream_world.front_default}}" alt="{{elem.sprites.front_default}}"></div>
+                <div  class="card-body">
+                  <h5 class="card-title"><h3>{{elem.name.toUpperCase()}}</h3></h5>
+                  <div id="description" class="card-text"><h5>Height:{{elem.height}}   Weight:{{elem.weight}}</h5>
+                   
+                    
+                 
+                  
+                  
+                 
+                 
+              </div >
+              
+              <div id="stat" class="card-text"><h4>Stats:</h4><span id="abil" >HP:{{elem.stats[0].base_stat}} ATK:{{elem.stats[1].base_stat}} DEF:{{elem.stats[2].base_stat}} </span> </div>
+              <a routerLink="view-page/{{elem.name}}" class="btn btn-dark">View more</a>
+                
+              </div>
+            </div>
+       </div>
+       
+    </div>
+    </div>
+
+</div>  

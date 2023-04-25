@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gloock&family=Labrada:wght@200;300&family=Solway&display=swap');
+.wholepage{
+    font-family: 'Solway', serif;
+   
+  }
+
+
+
+#electric{
+    background-color:rgb(212, 209, 8)
+   }
+   #water{
+     background-color: blue;
+   }
+   #ground{
+     background-color: brown;
+   }
+   #rock{
+     background-color: burlywood;
+   }
+   #fighting{
+     background-color: rgb(86, 21, 21);
+   }
+   #flying{
+     background-color: rgb(11, 161, 242);
+   }
+   #bug{
+     background-color: rgb(62, 100, 5);
+   }
+   #normal{
+     background-color: pink;
+   }
+   #fire{
+     background-color: red;
+   }
+   #grass{
+    
+     background: linear-gradient(to right,green , rgb(5, 246, 29))
+   }
+   #psychic{
+     background-color: rgb(237, 56, 116);
+   }
+   #ghost{
+     background-color: blueviolet;
+   }
+   #poison{
+     background-color: rgb(248, 3, 248);
+   }
+   #fairy{
+     background-color: rgb(237, 79, 142);
+   }
+   #steel{
+     background-color: silver;
+   }
+   #ice{
+     background-color: aqua;
+   }
+   #dragon{
+     background-color: rgb(93, 55, 128);
+   }
+   .image{
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    
+   }
+   .table{
+    font-size: 25px;
+    color: rgb(6, 6, 6);
+    border: 2px solid black;
+   }
+   .ability{
+    border-radius: 5px;
+    border: 2px solid black;
+   }
+
+  /* for name color */
+
+  #electric1{
+    color:rgb(212, 209, 8)
+   }
+   #water1{
+     color: blue;
+   }
+   #ground1{
+     color: brown;
+   }
+   #rock1{
+     color: burlywood;
+   }
+   #fighting1{
+     color: rgb(86, 21, 21);
+   }
+   #flying1{
+     color: rgb(11, 161, 242);
+   }
+   #bug1{
+     color: rgb(62, 100, 5);
+   }
+   #normal1{
+     color: pink;
+   }
+   #fire1{
+     color: red;
+   }
+   #grass1{
+    
+     color: green;
+   }
+   #psychic1{
+     color: rgb(237, 56, 116);
+   }
+   #ghost1{
+     color: blueviolet;
+   }
+   #poison1{
+    color: rgb(248, 3, 248);
+   }
+   #fairy1{
+     color: rgb(237, 79, 142);
+   }
+   #steel1{
+     color: silver;
+   }
+   #ice1{
+     color: aqua;
+   }
+   #dragon1{
+     color: rgb(61, 7, 112);
+   }
